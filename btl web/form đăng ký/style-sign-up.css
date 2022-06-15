@@ -58,12 +58,16 @@ body {
     width: 360px;
 }
 
-#first-password #second-password i {
-    padding-right: 0;
-    margin-left: 5px;
+#first-password , #second-password {
     cursor: pointer;
+}
+#first-password{
+    margin-left: -3px;
 }
 
 .form-input input {
     width: 100%;
+}
+.input-field{
+    margin-left: 5px;
 }
