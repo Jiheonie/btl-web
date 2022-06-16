@@ -48,7 +48,7 @@
             {
                 echo "Error: " . $add . "<br>" . $connect->error;
                 $connect->close();
-                header("Location: /btl web/form đăng nhập/index.php");
+                header("Location: /btl_web/login_form/index.php");
             }
         }
     ?>

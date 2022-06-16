@@ -23,7 +23,7 @@
                 die("Connection failed: ".mysqli_connect_error());
             }
         ?>
-        <form action="/btl web/thông tin khách hàng/thong tin.php" id="form-dang-nhap" method="post">
+        <form action="/btl_web/user_information/user_informarion.php" id="form-dang-nhap" method="post">
             <div class="form-header">
                 <h1>Đăng nhập</h1>
             </div>

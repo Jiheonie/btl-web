@@ -93,7 +93,7 @@
             {
                 echo "Đăng ký thành công!";
                 $connect->close();
-                header("Location:/btl web/form đăng nhập/index.php");
+                header("Location:/btl_web/login_form/index.php");
             }
             else
             {
